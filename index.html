@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel = "stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <nav>
+        <div class="nav-center">
+            <h4>Fitness Companion</h4>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Grocery</a>
+                </li>
+                <li>
+                    <a href="lift.html">RepTracker</a>
+                </li>
+                <li>
+                    <a href="ranquote.html">Motivation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section-center">
+        <!--user entry-->
+        <form class="grocery-form">
+            <p class="alert">aa</p>
+            <h3>
+                Grocery List
+            </h3>
+            <div class="form-control">
+                <input type="text" id="grocery" placeholder="Enter your grocery">
+                
+            </div>
+            <div class="form-control">
+                <input type="number" id="price" step="0.01" min="0" placeholder="Enter the estimated price">
+                
+            </div>
+            <div class="form-control"><button class="confirm">confirm</button></div>
+        </form>
+
+        <!--grocery display-->
+        <div class="grocery-container">
+            <div class="grocery-list">
+            </div>
+            <button class="clear">Clear Items</button>
+        </div>
+
+    </section>
+    <script src = "app.js"></script>
+
+</body>
+
+</html>
